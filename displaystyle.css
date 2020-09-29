@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Open+Sans|Source+Sans+Pro');
+body{
+font-family: 'Baloo Bhai', cursive;
+font-size:25px;
+line-height: none;
+}
+.container{
+max-width:1170px;
+}
+
+.list-group{
+ float: left;
+ width: 25vw;
+ overflow:hidden; 
+ clear:both;
+ height: 100vh;
+ overflow-y: scroll;
+ margin: 0px;
+}
+#display{
+  background:hsla(240, 100%,100%,2.0);
+  height:80px;
+  width:1000px;
+  overflow:hidden;
+  position:relative;
+  margin:auto;
+}
+.list-group-item{
+  background-color: Grey;
+  padding: 20px;
+}
+
+.list_title
+{
+    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    background-color:gray;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+
+    
+}
+
+.mesgs {
+  float: left;
+  padding: 30px;
+  height:500px;
+  width:40vw;
+    position: relative;
+    left: 150px;
+    
+}
+
+.myclass{
+    background-color:#fff;
+}
+
+.top{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    margin: 10px;
+    width:360px;
+    height=119px;
+    background-color: #39EABB;
+    border-color: #39EABB;
+    color: #FFFFFF;
+}
+  
+.content_heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    background-color: #39EABB;
+    border-color: #39EABB;
+    color: #FFFFFF;
+}   
+
+.content_title {
+    font-size: 25px;
+    font-weight:bold;
+    margin: 10px;
+    text-align: center;
+}   
+
+
+.table-user-info > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+    margin: 0;
+}
+
+.table-user-info > tbody > tr:first-child {
+    border-top: 0;
+}
+
+.table-user-info > tbody > tr > td {
+    border-top: 0;
+}
+
+
+
+
